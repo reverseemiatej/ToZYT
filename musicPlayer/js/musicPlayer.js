@@ -23,9 +23,9 @@ $(function () {
     // 一些计算所需的变量
     var seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0
     var musicImgsData = ['musicPlayer/img/inlove.jpg', 'musicPlayer/img/mud.jpg']    // 图片地址数组
-    var musicNameData = ['InLove','烂泥'];                   // 歌曲名数组
-    var artistNameData = ['Vietra','草东没有派对']            // 创作歌手数组
-    var musicUrls = ['musicPlayer/mp3/Vietra - In Love (lyrics).mp3', 'musicPlayer/mp3/Mud.mp3'];// 歌曲mp3数组
+    var musicNameData = ['凄美地','InLove','烂泥'];                   // 歌曲名数组
+    var artistNameData = ['郭顶','Vietra','草东没有派对']            // 创作歌手数组
+    var musicUrls = ['musicPlayer/mp3/GuoDing-The Fog Space.mp3','musicPlayer/mp3/Vietra - In Love (lyrics).mp3', 'musicPlayer/mp3/Mud.mp3'];// 歌曲mp3数组
     var currIndex = -1;              // 当前播放索引
     
     var buffInterval = null          // 初始化定时器 判断是否需要缓冲
