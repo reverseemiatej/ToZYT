@@ -22,7 +22,7 @@ $(function () {
 
     // 一些计算所需的变量
     var seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0
-    var musicImgsData = ['musicPlayer/img/inlove.jpg', 'musicPlayer/img/mud.jpg']    // 图片地址数组
+    var musicImgsData = ['musicPlayer/img/TheFogSpace.jpg','musicPlayer/img/inlove.jpg', 'musicPlayer/img/mud.jpg']    // 图片地址数组
     var musicNameData = ['凄美地','InLove','烂泥'];                   // 歌曲名数组
     var artistNameData = ['郭顶','Vietra','草东没有派对']            // 创作歌手数组
     var musicUrls = ['musicPlayer/mp3/GuoDing-The Fog Space.mp3','musicPlayer/mp3/Vietra - In Love (lyrics).mp3', 'musicPlayer/mp3/Mud.mp3'];// 歌曲mp3数组
