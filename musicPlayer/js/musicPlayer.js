@@ -25,7 +25,7 @@ $(function () {
     var musicImgsData = ['musicPlayer/img/OneLastKiss.jpg', 'musicPlayer/img/TheFogSpace.jpg', 'musicPlayer/img/mud.jpg']    // 图片地址数组
     var musicNameData = ['- - -','凄美地','烂泥'];                   // 歌曲名数组
     var artistNameData = ['宇多田光','郭顶','草东没有派对']            // 创作歌手数组
-    var musicUrls = ['musicPlayer/mp3/One Last Kiss', 'musicPlayer/mp3/GuoDing-The Fog Space.mp3', 'musicPlayer/mp3/Mud.mp3'];// 歌曲mp3数组
+    var musicUrls = ['musicPlayer/mp3/One Last Kiss.mp3', 'musicPlayer/mp3/GuoDing-The Fog Space.mp3', 'musicPlayer/mp3/Mud.mp3'];// 歌曲mp3数组
     var currIndex = -1;              // 当前播放索引
     
     var buffInterval = null          // 初始化定时器 判断是否需要缓冲
